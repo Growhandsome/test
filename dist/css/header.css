@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+.public {
+  width: 960px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  padding: 30px 0;
+}
+.header .logo {
+  float: left;
+}
+.header .qrcode {
+  float: right;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.nav {
+  width: 100%;
+  height: 50px;
+  background: #00659c;
+}
+.nav a {
+  color: #fff;
+  padding: 15px 0;
+  line-height: 50px;
+}
+.nav a.active {
+  background: #004b8b;
+}
+.nav a:hover {
+  background: #004b8b;
+}
+.nav a span {
+  padding: 0 25px;
+  border-left: 1px solid #fff;
+}
+.nav a:first-child span {
+  border-left: none;
+}
